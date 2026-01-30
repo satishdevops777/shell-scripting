@@ -1,6 +1,6 @@
 
 GREEN = "\e[32m"
-RESET = \e[0m"
+RESET = "\e[0m"
 
 echo -e "${GREEN}Installing Nginx ${RESET}"
 dnf install nginx -y 
